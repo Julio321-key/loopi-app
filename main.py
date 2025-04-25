@@ -81,7 +81,7 @@ class MainScreen(Screen):
             text="SELAMAT DATANG DI MESIN PEMILAH SAMPAH LOOPI",
             font_size=50,
             color=(0, 0, 0, 1),
-            font_name="CalSans-Regular.ttf",
+            font_name="Font/CalSans-Regular.ttf",
             size_hint=(None, None),
             size=(400, 100),
             pos_hint={'center_x': 0.5, 'top': 0.95}
@@ -90,7 +90,7 @@ class MainScreen(Screen):
         
         # Logo Loopi
         logo = Image(
-            source="LoopiLogo.png",
+            source="Image/LoopiLogo.png",
             size_hint=(None, None),
             size=(110,110),
             pos_hint={'x': 0.02, 'top': 0.98}
@@ -99,7 +99,7 @@ class MainScreen(Screen):
         
         #Logo WA
         logo1 = Image(
-            source="WAIcon.png",
+            source="Image/WAIcon.png",
             size_hint=(None, None),
             size=(60, 60),
             pos_hint={'x': 0.6, 'y': 0.01}
@@ -108,7 +108,7 @@ class MainScreen(Screen):
         
         # logo playstore
         logo2 = Image(
-            source="playstore.png",
+            source="Image/playstore.png",
             size_hint=(None, None),
             size=(380, 380),
             pos_hint={'x': 0.06, 'y': 0.09}
@@ -117,7 +117,7 @@ class MainScreen(Screen):
         
         # logo appstore
         logo3 = Image(
-            source="Appstore.png",
+            source="Image/Appstore.png",
             size_hint=(None, None),
             size=(370, 370),
             pos_hint={'x': 0.26, 'y': 0.093}
@@ -129,7 +129,7 @@ class MainScreen(Screen):
             text="WA CUSTOMER SERVICE   +62 812 3456 7890",
             font_size=30,
             color=(0, 0, 0, 1),
-            font_name="Nunito-SemiBold.ttf",
+            font_name="Font/Nunito-SemiBold.ttf",
             size_hint=(None, None),
             pos_hint={'x': 0.785, 'y': -0.01}
         )
@@ -140,7 +140,7 @@ class MainScreen(Screen):
             text="Syarat dan Ketentuan Penukaran Botol",
             font_size=45,
             color=(0, 0, 0, 1),
-            font_name="CalSans-Regular.ttf",
+            font_name="Font/CalSans-Regular.ttf",
             size_hint=(None, None),
             pos_hint={'x': 0.24, 'y': 0.68}
         )
@@ -151,7 +151,7 @@ class MainScreen(Screen):
             text="1. Pastikan Anda sudah download & install aplikasi Loopi",
             font_size=35,
             color=(0, 0, 0, 1),
-            font_name="Nunito-SemiBold.ttf",
+            font_name="Font/Nunito-SemiBold.ttf",
             text_size=(1000, None),
             size_hint=(None, None),
             pos_hint={'x': 0.302, 'y': 0.6}
@@ -162,7 +162,7 @@ class MainScreen(Screen):
             text="2. Kami menerima 4 jenis sampah botol (plastik, kaca, kaleng, dan susu kotak (kertas))",
             font_size=35,
             color=(0, 0, 0, 1),
-            font_name="Nunito-SemiBold.ttf",
+            font_name="Font/Nunito-SemiBold.ttf",
             text_size=(1000, None),
             size_hint=(None, None),
             pos_hint={'x': 0.302, 'y': 0.52}
@@ -173,7 +173,7 @@ class MainScreen(Screen):
             text="3. Pastikan botol dalam keadaan kering (tidak ada air)",
             font_size=35,
             color=(0, 0, 0, 1),
-            font_name="Nunito-SemiBold.ttf",
+            font_name="Font/Nunito-SemiBold.ttf",
             size_hint=(None, None),
             text_size=(1000, None),
             pos_hint={'x': 0.302, 'y': 0.44}
@@ -184,7 +184,7 @@ class MainScreen(Screen):
             text="4. Setiap jenis botol memiliki nilai point yang berbeda",
             font_size=35,
             color=(0, 0, 0, 1),
-            font_name="Nunito-SemiBold.ttf",
+            font_name="Font/Nunito-SemiBold.ttf",
             size_hint=(None, None),
             text_size=(1000, None),
             pos_hint={'x': 0.302, 'y': 0.38}
@@ -196,7 +196,7 @@ class MainScreen(Screen):
         #Tombol MULAI
         self.start_button = RoundedButton(
             text='MULAI',
-            font_name='Nunito-SemiBold.ttf',
+            font_name='Font/Nunito-SemiBold.ttf',
             font_size='24sp',
             size_hint=(0.35, 0.09),
             pos_hint={'right': 0.97, 'y': 0.12},
